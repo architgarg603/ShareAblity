@@ -6,10 +6,11 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/about.css" />
-    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
   </head>
 
   <body>
@@ -25,16 +26,12 @@
       </div>
 
       <div class="profile-header">
-
-        <% if(check){ %>
-          <div class="dummy-header"><i class="fas fa-user-circle"></i></div>
-          <div class="name-header">
-              <%- name %>
+          
+          <div class="name-header" style="display: none;">
+              name
           </div>
-          <% }else{%>
-              <div class="name-header" style="display: none;"></div>
-              <div class="login"><a href="/signin" style="color: white; text-decoration: none;">LOGIN</a></div>
-              <% } %>
+          <a href="/logout" style="color: black; text-decoration: none; cursor: pointer; font-weight: bold;">Logout</a>
+      </div>
   </div>
     <div class="welcome-area" id="welcome">
       <div class="header-text">
