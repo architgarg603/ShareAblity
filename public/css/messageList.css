@@ -160,7 +160,7 @@
   }
   .submit {
     width: 130.82px;
-    height: 71.21px;
+    height: 61.21px;
   
     background: linear-gradient(325.78deg, #6b69e2 14.76%, #6b69e2 87.3%);
     box-shadow: 1px 1px 9px rgba(107, 105, 226, 0.57),
@@ -261,9 +261,9 @@
       font-size: large;
       
   }
-  .p3{
+  .p3 {
       height: 100%;
-      width: 15%;
+      width: 25%;
       display: flex;
       justify-content: center;
       align-items: center;
