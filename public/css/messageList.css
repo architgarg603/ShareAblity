@@ -234,7 +234,7 @@
   .p1{
       height: 100%;
       position: relative;
-      width: 10%;
+      width: 0%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -247,12 +247,12 @@
       display: flex;
       justify-content: center;
   }
-  .p2{
-      height: 100%;
-      width: 70%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  .p2 {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .p2 input{
       height: 50%;
