@@ -573,9 +573,16 @@ button.main-button:hover {
   .options-header {
       font-size: 9px;
   }
+
 }
 
+@media only screen and (max-width: 600px)
+{
 
+.welcome-area{
+  height: 50vh;
+}
+}
 
 
 @media only screen and (orientation:portrait) and (max-width: 420px){
