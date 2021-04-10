@@ -45,7 +45,7 @@ function getSignUp(req, res) {
 
 function upload(req, res) {
     if (req.isLoggedIn) {
-        res.render("upload.ejs");
+        res.render("upload.ejs",{name: req.user.name });
     } else {
         res.redirect("/signin")
     }

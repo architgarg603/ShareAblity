@@ -115,7 +115,7 @@ async function addChat(req, res) {
         await data.save();
 
         obj.sender = "other"
-        arr = [];
+        arr = data1.chat;
         arr.push(obj)
         data1.chat = arr
         await data1.save();
