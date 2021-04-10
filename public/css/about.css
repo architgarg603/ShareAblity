@@ -7,25 +7,63 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-::selection {
-  background: #ff589e;
-  color: #fff;
+.header {
+  height: 10%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+.header div {
+  cursor: pointer;
+}
+.project-header {
+  font-family: Lexend Deca;
+  font-weight: 100;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #9c69e2;
+  width: 18%;
+}
+.wrapper-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 70%;
+}
+.options-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  font-family: Lexend Deca;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+}
+.dummy-header {
+  margin-right: 15px;
+  color: #9c69e2;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-header {
+  font-weight: 600;
 }
 
-::-moz-selection {
-  background: #ff589e;
-  color: #fff;
-}
 
-.section {
-  position: relative;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.section.colored {
-  background: #f2f2fe;
-}
 
 .hr {
   bottom: 0px;
@@ -280,7 +318,7 @@ button.main-button:hover {
   transform: translateY(-55%);
   text-align: center;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .welcome-area .header-text h1 {
@@ -453,4 +491,76 @@ button.main-button:hover {
     margin-top: 0px;
   }
 }
+@media only screen and (orientation:portrait) and (max-width: 1030px){
+  
+  .project-header {
+    
+    width: 20%;
+  }
+  
+}
 
+
+@media only screen and (orientation:landscape) and (max-width:825px){
+  
+  .project-header {
+    font-size: 22px;
+    width: 25%;
+  }
+  .options-header {
+    font-size: 11px;
+  }
+  .dummy-header {
+    margin-right: 10px;
+    color: #9C69E2;
+    font-size: 15px;
+  }
+  .name-header {
+      font-weight: 600;
+      font-size: 11px;
+    }
+  }
+  
+  @media only screen and (orientation: portrait) and (max-width: 820px)
+{
+  .project-header{
+    width: 26%;
+  }
+  
+}
+@media only screen and (orientation:portrait) and (max-width: 770px){
+  
+  .project-header {
+    width: 28%;
+  }
+  
+}
+@media only screen and (max-width: 732px)
+{
+  
+  .project-header {
+      font-size: 18px;
+      width: 25%;
+  }
+  .options-header {
+      font-size: 9px;
+  }
+}
+
+
+
+
+@media only screen and (orientation:portrait) and (max-width: 420px){
+  .project-header {
+      width: 31%;
+      font-size: 15px;
+  }
+  .options-header {
+      font-size: 7px;
+  }
+  .name-header {
+      font-weight: 600;
+      font-size: 8px;
+  }
+
+}

@@ -88,7 +88,11 @@ function pchat(req, res) {
 }
 
 function about(req, res) {
-    res.render("about.ejs");
+    let nameHeader = "";
+    if (req.user) {
+        nameHeader = req.user.name;
+    }
+    res.render("about.ejs", { name: nameHeader,check:req.isLoggedIn });
 }
 
 

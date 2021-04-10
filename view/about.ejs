@@ -9,9 +9,33 @@
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/about.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
   </head>
 
   <body>
+    <div class="header">
+      <div class="wrapper-header">
+          <div class="project-header">sharability</div>
+          <div class="options-header">
+              <div class="option3-header">Home</div>
+              <div class="option1-header">About</div>
+              <div class="option2-header">Chats</div>
+              <div class="option4-header">Search</div>
+          </div>
+      </div>
+
+      <div class="profile-header">
+
+        <% if(check){ %>
+          <div class="dummy-header"><i class="fas fa-user-circle"></i></div>
+          <div class="name-header">
+              <%- name %>
+          </div>
+          <% }else{%>
+              <div class="name-header" style="display: none;"></div>
+              <div class="login"><a href="/signin" style="color: white; text-decoration: none;">LOGIN</a></div>
+              <% } %>
+  </div>
     <div class="welcome-area" id="welcome">
       <div class="header-text">
         <div class="container">
