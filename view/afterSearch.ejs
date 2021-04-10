@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="/css/search.css">
+    <link rel="stylesheet" href="/css/searchMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="wrapper-header">
+                <div class="project-header">sharability</div>
+                <div class="options-header">
+                <div class="option3-header">Home</div>
+                <div class="option1-header">About</div>
+                <div class="option2-header">Chats</div>
+                <div class="option4-header">Search</div>
+            </div>
+            </div>
+            
+            <div class="profile-header">
+                <div class="dummy-header"><i class="fas fa-user-circle"></i></div>
+                <div class="name-header"><%- name%></div>
+            </div>
+        </div>
+        <div class="container">
+           
+            <div class="wrap">
+                <div class="popup">
+
+                    <div class="pt1">
+                        <div class="cross">
+                            <i class="fas fa-times closeBtn"></i>
+                        </div>
+
+                        <div class="upper">
+                            <h1>Learn how to make a toast with one hand</h1>
+                            <h3>Shared By: John S</h3>
+                        </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="text1">
+                                    <h3>The challenge was:</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, sequi fugiat nemo
+                                        commodi eaque nostrum ullam. Consequuntur tempora explicabo et eaque voluptatem
+                                        nobis sed, veniam ad soluta nam illo dolore!</p>
+
+                                </div>
+                                <div class="text2">
+                                    <h3>How it was solved?</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos molestias
+                                        corporis harum porro voluptas placeat ab eaque minus ut? Et quo iste perferendis
+                                        illo beatae ullam recusandae quis veniam similique.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt2">
+                        <div class="contact">Contact
+                            <i class="far fa-comments"></i>
+                        </div>
+                        <div class="liked"><span>
+                                Liked!
+                            </span>
+                            <i class="fas fa-heart"></i>
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <h1 class="heading">
+                <!-- <i class="fas fa-arrow-left back"></i> -->
+                Search</h1>
+            <div class="searchbox">
+                <input type="text" class="search" value="<%- search %>">
+
+                <i class="fas fa-search searchBtn"></i>
+            </div>
+            <div class="results">
+                <h3>Your results:</h3>
+            </div>
+            <div class="others">
+                <div class="stories">
+                    <div class="story">
+                        <div class="part1">
+                            <div class="text">Learn how to make toast with one hand</div>
+                        </div>
+                        <div class="part2">Read Story</div>
+
+                    </div>
+                    <div class="story">
+                        <div class="part1">
+                            <div class="text">Learn how to make toast with one hand</div>
+                        </div>
+                        <div class="part2">Read Story</div>
+
+                    </div>
+                    <div class="story">
+                        <div class="part1">
+                            <div class="text">Learn how to make toast with one hand</div>
+                        </div>
+                        <div class="part2">Read Story</div>
+
+                    </div>
+                    <div class="story">
+                        <div class="part1">
+                            <div class="text">Learn how to make toast with one hand</div>
+                        </div>
+                        <div class="part2">Read Story</div>
+
+                    </div>
+                    <div class="story">
+                        <div class="part1">
+                            <div class="text">Learn how to make toast with one hand</div>
+                        </div>
+                        <div class="part2">Watch Story</div>
+
+                    </div>
+                    <div class="story">
+                        <div class="part1">
+                            <div class="text">Learn how to make toast with one hand</div>
+                        </div>
+                        <div class="part2">Listen Story</div>
+
+                    </div>
+
+                </div>
+
+                <div class="loadMore">Load More</div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/header.js"></script>
+    <script src="/js/afterSearch.js"></script>
+</body>
+
+</html>

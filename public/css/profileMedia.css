@@ -1,0 +1,221 @@
+@media only screen and (orientation:landscape) and (max-width:1370px){
+    .heading{
+        font-size: 32px;
+    }
+    .subHeading{
+        font-size: 19px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:825px){
+    .heading{
+        font-size: 19px;
+    }
+    .project-header {
+        font-size: 22px;
+        width: 25%;
+    }
+    .options-header {
+        font-size: 11px;
+    }
+    .dummy-header {
+        margin-right: 10px;
+        color: #9C69E2;
+        font-size: 15px;
+    }
+    .name-header {
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .subHeading{
+        font-size: 11px;
+    }
+    .share {
+        height: 15%;
+        width: 11%;
+        background-color: #6B69E2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        color: white;
+        font-size: 12px;
+    }
+    .a, .b, .c {
+        height: 89%;
+        width: 19%;
+        background-color: white;
+        border: 1px solid #6B69E2;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: gray;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .subHeading2 {
+        margin: 2%;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width:730px){
+    .subHeading2 {
+        margin: 2%;
+        font-size: 18px;
+        margin-top: 3%;
+    }
+    .project-header {
+        font-size: 18px;
+        width: 25%;
+    }
+    .options-header {
+        font-size: 9px;
+    }
+    .a,.b,.c{
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 22px;
+    }
+    .subHeading{
+        font-size: 14px;
+    }
+    .share{
+        font-size: 13px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:570px){
+    .heading{
+        font-size: 14px;
+    }
+    .subHeading{
+        font-size: 9px;
+    }
+    .share{
+        font-size: 9px;
+    }
+    .subHeading2{
+        font-size: 12px;
+    }
+    .a, .b, .c {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 1030px){
+    .a, .b, .c {
+        height: 87%;
+        width: 28%;
+        font-size: 25px;
+    }
+    .project-header {
+        
+        width: 20%;
+    }
+    .a i, .b i, .c i {
+        color: gray;
+        font-size: 33px;
+        margin-bottom: 3%;
+    }
+    .subHeading2 {
+        margin: 5%;
+        font-size: 26px;
+    }
+    .heading{
+        font-size: 38px;
+    }
+    .subHeading{
+        font-size: 25px;
+    }
+    .share{
+        width: 19%;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 770px){
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 58%;
+    }
+    .project-header {
+        width: 25%;
+    }
+    .a,.b,.c{
+        width: 25%;
+        font-size: 16px;
+    }
+    .subHeading2 {
+        margin: 5%;
+        font-size: 23px;
+    }
+    .share {
+        height: 15%;
+        width: 21%;
+    }
+    .a i,.b i,.c i{
+        font-size: 23px;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width: 420px){
+    .project-header {
+        width: 31%;
+        font-size: 15px;
+    }
+    .options-header {
+        font-size: 7px;
+    }
+    .name-header {
+        font-weight: 600;
+        font-size: 8px;
+    }
+    .heading {
+        font-size: 22px;
+    }
+    .subHeading {
+        font-size: 13px;
+    }
+    .share {
+        height: 12%;
+        width: 29%;
+        font-size: 15px;
+    }
+    .a, .b, .c {
+        width: 30%;
+        font-size: 12px;
+        height: 74%;
+    }
+    .subHeading2 {
+        margin: 8%;
+        font-size: 23px;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width: 340px){
+    .heading {
+        font-size: 18px;
+    }
+    .subHeading {
+        font-size: 10px;
+    }
+    .share {
+        height: 12%;
+        width: 29%;
+        font-size: 12px;
+    }
+    .a, .b, .c {
+        width: 30%;
+        font-size: 9px;
+        height: 85%;
+    }
+    .subHeading2 {
+        margin: 8%;
+        font-size: 18px;
+    }
+    .a i,.b i,.c i{
+        font-size: 13px;
+    }
+}

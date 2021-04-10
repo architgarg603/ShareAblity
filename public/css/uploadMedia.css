@@ -1,0 +1,196 @@
+@media only screen and (orientation:landscape) and (max-width:1370px){
+    .container{
+        height: 120vh;
+    }
+    #name_story {
+        min-height: 80px;
+    }
+    #challenge {
+        min-height: 145px;
+    }
+    #solution {
+        min-height: 247px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:1030px){
+    label{
+        font-size: 21px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:825px){
+    .container{
+        height: 180vh;
+    }
+    .part2 {
+        width: 45%;
+        height: 100%;
+        padding-top: 8%;
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    .media{
+        height: 60%;
+    }
+    #name_story {
+        min-height: 60px;
+    }
+    #challenge {
+        min-height: 134px;
+    }
+    #solution {
+        min-height: 202px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:740px){
+    label {
+        font-size: 18px;
+    }
+    .container {
+        height: 150vh;
+    }
+    #challenge {
+        min-height: 130px;
+    }
+    .media {
+        height: 64%;
+    }
+    #solution {
+        min-height: 187px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:730px){
+    .part1 {
+        width: 50%;
+        height: 100%;
+    }
+    .container {
+        height: 104vh;
+    }
+    #solution {
+        min-height: 181px;
+    }
+    .part2 {
+        width: 50%;
+        height: 100%;
+        padding-top: 8%;
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    #name_story {
+        min-height: 46px;
+    }
+    #challenge {
+        min-height: 102px;
+    }
+    label {
+        font-size: 14px;
+    }
+    .media {
+        height: 65%;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:670px){
+    .container{
+        height: 150vh;
+    }
+    #challenge {
+        min-height: 93px;
+    }
+    #solution {
+        min-height: 152px;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:1025px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        padding-top: 0%;
+        height: 140vh;
+    }
+    .part1 {
+        width: 100%;
+        height: 80%;
+    }
+    .part2{
+        width: 100%;
+        padding-left: 3%;
+    }
+    .tags{
+        font-size: 27px;
+    }
+    .uploaded{
+        font-size: 27px;
+    }
+    #name_story {
+        min-height: 77px;
+    }
+    #challenge {
+        min-height: 125px;
+    }
+    #solution {
+        min-height: 188px;
+    }
+    .part1 form {
+        display: flex;
+        flex-direction: column;
+         padding-left: 0%; 
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:540px){
+    
+    .media{
+        height: 77%;
+    width: 94%;
+    }
+    
+    #name_story {
+        min-height: 52px;
+    }
+    #challenge {
+        min-height: 90px;
+    }
+    #solution {
+        min-height: 135px;
+    }
+    
+}
+@media only screen and (orientation:portrait) and (max-width:420px){
+    label{
+        font-size: large;
+    }
+    #name_story {
+        min-height: 47px;
+    }
+    #challenge {
+        min-height: 78px;
+    }
+    .tags {
+        font-size: 19px;
+    }
+    .uploaded {
+        font-size: 20px;
+    }
+    .part2{
+        padding-right: 0%;
+    }
+    .media {
+        height: 77%;
+        width: 99%;
+        margin-right: 0px;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:330px){
+    label {
+        font-size: 15px;
+    }
+    #solution {
+        min-height: 105px;
+    }
+    .media{
+        margin-bottom: 10px;
+    }
+    .tags {
+        font-size: 13px;
+    }
+}

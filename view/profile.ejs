@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/profilePage.css">
+    <link rel="stylesheet" href="/css/profileMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="wrapper-header">
+                <div class="project-header">sharability</div>
+                <div class="options-header">
+                    <div class="option3-header">Home</div>
+                    <div class="option1-header">About</div>
+                    <div class="option2-header">Chats</div>
+                    <div class="option4-header">Search</div>
+                </div>
+            </div>
+
+            <div class="profile-header">
+                
+                <div class="name-header" style="display: none;">
+                    <%- name %>
+                </div>
+                <a href="/logout" style="color: black; text-decoration: none; cursor: pointer; font-weight: bold;">Logout</a>
+            </div>
+        </div>
+
+        <div class="div1">
+            <h1 class="heading">Welcome to your journey <%- name %>,<br>
+                    with SharAbility!
+            </h1>
+            <h3 class="subHeading">Now you can share your story to inspire others.</h3>
+            <div class="share">SHARE</div>
+        </div>
+        <div class="div2">
+            <h3 class="subHeading2">Your activity</h3>
+            <div class="options">
+                <div class="a">
+                    <i class="far fa-envelope"></i>
+                    Messages
+                </div>
+                <div class="b">
+                    <i class="far fa-heart"></i>
+                    Likes
+                </div>
+                <div class="c">
+                    <i class="fas fa-upload"></i>
+                    Uploads
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="/js/profile.js"></script>
+    <script src="/js/header.js"></script>
+</body>
+
+</html>

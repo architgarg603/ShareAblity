@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: #F3F3FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.header div{
+    cursor: pointer;
+}
+.project-header{
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #9C69E2;
+    width: 18%;
+
+}
+.wrapper-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+}
+.options-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    font-family: Lexend Deca;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+.dummy-header{
+    margin-right: 15px;
+    color: #9C69E2;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-header{
+    font-weight: 600;
+}
+.share{
+    height: 15%;
+    width: 14%;
+    background-color: #6B69E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 45%;
+    width: 100%;
+    padding-left: 5%;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+}
+.div2{
+    height: 55%;
+    width: 100%;
+   
+    background-color: #F3F3FD;
+}
+.subHeading2{
+    margin: 2%;
+    font-size: 23px
+}
+.a, .b, .c {
+    height: 100%;
+    width: 22%;
+    background-color: white;
+    border: 1px solid #6B69E2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+}
+.a i,.b i,.c i{
+    color : gray;
+    font-size: 20px;
+    margin-bottom: 3%;
+}

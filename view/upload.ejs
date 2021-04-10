@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Upload</title>
+    <link rel="stylesheet" href="/css/upload.css">
+    <link rel="stylesheet" href="/css/uploadMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="page">
+
+        <div class="container">
+            <div class="uploading">
+                <div class="anime">
+
+
+
+                    <div class="loader">
+                        <div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="percentage">67%</div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="popup">
+                <div class="content">
+                    <div class="cross">
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <h1>Awesome John!</h1>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/sharablity.appspot.com/o/static%2Fconfetti%20(1).png?alt=media&token=6bee48ff-c483-4025-92b4-c6f4f31561e0"
+                        alt="" srcset="">
+                    <h2>Thanks for Sharing.</h2>
+                    <h3>Now people from ShareAble community can get inspired by you!</h3>
+
+                </div>
+            </div>
+            <div class="part1">
+                <form action="" method="post">
+                    <h1 class="heading">
+                        SHARE
+                    </h1>
+                    <label for="name_story">Name your story:</label>
+                    <div class="input1-story">
+                        <textarea name="YourStory" id="name_story"></textarea>
+                        <i class="fas fa-microphone mic1"></i>
+                    </div>
+                    <label for="challenge">What was your challenge?</label>
+                    <div class="input2-challenge">
+
+                        <textarea name="Challenge" id="challenge"></textarea>
+                        <i class="fas fa-microphone mic2"></i>
+                    </div>
+                    <label for="solution">How did you solve it?</label>
+                    <div class="input3-solution">
+
+                        <textarea name="Solution" id="solution"></textarea>
+                        <i class="fas fa-microphone mic3"></i>
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="part2">
+                <div class="media">
+                    <label for="uploaded" class="uploaded">Upload Media</label>
+                    <input type="file" name="" id="uploaded" style="display: none;">
+                </div>
+                <div class="submit">Share</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-storage.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyDMk5z8v8ZUklGglrTpO3BKFdrKKPLyWEI",
+            authDomain: "sharablity.firebaseapp.com",
+            projectId: "sharablity",
+            storageBucket: "sharablity.appspot.com",
+            messagingSenderId: "666191834522",
+            appId: "1:666191834522:web:1273c55789a0ac16ad1e23",
+            measurementId: "G-M27H9FMX2M"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        let storage = firebase.storage();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="/js/speech.js"></script>
+
+    <script src="/js/upload.js"></script>
+
+</body>
+
+</html>

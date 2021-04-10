@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="wrapper-header">
+            <div class="project-header">sharability</div>
+            <div class="options-header">
+            <div class="option3-header" style="display: none;"></div>
+            <div class="option1-header">About</div>
+            <div class="option2-header">Chats</div>
+            <div class="option4-header">Search</div>
+        </div>
+        </div>
+        
+        <div class="profile-header">
+            <% if(check){ %>
+            <div class="dummy-header"><i class="fas fa-user-circle"></i></div>
+            <div class="name-header"><%- name %></div>
+            <% }else{%>
+                <div class="name-header" style="display: none;"></div>
+            <div class="login"><a href="/signin" style="color: white; text-decoration: none;">LOGIN</a></div>
+            <% } %>
+            
+        </div>
+    </div>
+    <div class="page">
+        <div class="heading">
+            <div class="upper">Share your story and<br>
+                make an impact</div>
+                <div class="down">A community for people with disabilities to connect and share life hacks.</div>
+        </div>
+        <div class="search"><input type="text" class="searchbar"><button class="submitbtn">SEARCH</button></div>
+        <div class="topic">Look for life hacks in:</div>
+        <div class="categories">
+            <div class="row">
+                <div class="box">Self Care</div>
+                <div class="box">Entertainment</div>
+                <div class="box">Social</div>
+            </div>
+            <div class="row">
+                <div class="box">Communication</div>
+                <div class="box">Housekeeping</div>
+                <div class="box">Sports</div>
+            </div>
+            <div class="row">
+                <div class="box">Cooking</div>
+                <div class="box">Mobility</div>
+                <div class="box">Work</div>
+            </div>
+        </div>
+    </div>
+     <script src="/js/homepage.js"></script>
+        <script src="/js/header.js"></script>
+</body>
+
+</html>
