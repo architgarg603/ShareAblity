@@ -366,5 +366,6 @@
     .p2 input {
       height: 70%;
       width: 100%;
+      font-size: medium;
     }
   }
