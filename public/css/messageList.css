@@ -311,6 +311,20 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #c6c6ff5e; 
   }
+  @media only screen and (orientation:portrait) and (max-width:420px){
+    .userimg {
+      width: 15%;
+      margin-right: 15px;
+    }
+    .user span{
+      font-size: large;
+    }
+    .submit {
+      width: 130.82px;
+      height: 49.21px;
+      font-size: 16px;
+    }
+  }
   @media only screen and (orientation:portrait) and (max-width:325px){
     .userimg {
       width: 16%;
