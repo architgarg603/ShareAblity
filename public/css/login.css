@@ -13,9 +13,8 @@ body{
   margin-right: 5%;
 }
 
-.project-header{
-  width: 18%;
-
+.project-header {
+  width: 30%;
 }
 
 .headerimg{
@@ -237,19 +236,21 @@ span{
   font-size: 14px;}
   .upper {
     font-size: 175%;
+    margin-bottom: 20px;
 }
 
 .down {
   font-size: 11px;
+  margin-bottom: 13px;
 }
 .submitbtn{
 font-size: 20px;
 height: 46px;
 
 }
-.signup{
-font-size: 15px;
-
+.signup {
+  font-size: 15px;
+  margin-top: 15px;
 }
 
 }

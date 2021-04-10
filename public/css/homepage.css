@@ -124,7 +124,7 @@ color: #FFFFFF;
 }
 .search {
   display: flex;
-  margin-top: 2.5%;
+  margin-top: 5%;
   height: 65px;
 }
 .searchbar {
@@ -265,7 +265,7 @@ color: #FFFFFF;
 @media only screen and (max-width: 732px)
 {
   .upper{
-    font-size: 42px;
+    font-size: 40px;
   }
   .down{
     font-size: 15px;
@@ -308,8 +308,9 @@ color: #FFFFFF;
 .down{
   font-size: 12px;
 }
-.upper{
-  font-size: 32px;
+.upper {
+  font-size: 29px;
+  margin-bottom: 10px;
 }
 .topic{
   font-size: 14px;
@@ -356,6 +357,10 @@ color: #FFFFFF;
   }
 
 }
-@media only screen and (orientation:portrait) and (max-width: 340px){
-
+@media only screen and (orientation:portrait) and (max-width: 325px){
+  .upper {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
 }
