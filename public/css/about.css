@@ -63,6 +63,13 @@ body {
   font-weight: 600;
 }
 
+.row2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  flex-direction: column-reverse;
+}
 
 
 .hr {
