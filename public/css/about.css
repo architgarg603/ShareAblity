@@ -71,6 +71,13 @@ body {
   flex-direction: column-reverse;
 }
 
+@media only screen and (max-width: 780px)
+{
+  .row2{
+    flex-direction: column-reverse;
+  }
+}
+
 
 .hr {
   bottom: 0px;
