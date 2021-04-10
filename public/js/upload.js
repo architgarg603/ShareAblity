@@ -26,6 +26,7 @@ function share(){
 
         task.on('state_changed', function (snapshot) {
             let progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            progress = Math.floor(progress);
             percentage.innerHTML = `${progress}%`
         },
             function (err) {
