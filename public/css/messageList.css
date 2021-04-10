@@ -311,4 +311,24 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #c6c6ff5e; 
   }
-  
+  @media only screen and (orientation:portrait) and (max-width:325px){
+    .userimg {
+      width: 16%;
+      margin-right: 15px;
+      height: 34px;
+    }
+    .user span{
+      font-size: 18px;
+    }
+    .msg{
+      font-size: 10px;
+    }
+    .submit {
+      width: 130.82px;
+      height: 44.21px;
+      font-size: 13px;
+    }
+    .p2 input {
+      font-size: medium;
+    }
+  }
