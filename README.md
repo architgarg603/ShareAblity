@@ -46,7 +46,7 @@
   4) Bootstrap
   5) Mongo
   6) Express
-  7) eJS
+  7) Ejs
   8) Figma  
 
 ## Contributors:
