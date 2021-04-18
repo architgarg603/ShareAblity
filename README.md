@@ -1,4 +1,4 @@
-<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
+
 
 ## Introduction:
   Have you thought about how difficult it is to make a piece of toast or peel an apple when you have mobility in only one hand? Some tasks are big challenges and if we can help people to manage those tasks efficiently, the impact can be life changing. 
@@ -58,6 +58,3 @@ Team Name: Celestial Biscuit
 * [Sristi Sharma](https://github.com/24sristi)
 * [Pooja Gera](https://github.com/pooja-gera)
 
-
-### Made at:
-<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
